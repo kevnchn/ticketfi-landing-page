@@ -1,348 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>The Firm - One Page Scroller Template</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-    <script src="js/scripts.js"></script>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
 
-	<body>
-<!-- Wrap all page content here -->
-<div id="wrap">
-<header class="masthead">
-  <div class="container">
+    <title>TicketFi - Make data-driven event management decisions</title>
 
-     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Log In</a></li>
-        <li><a href="#">Sign Up</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div>
-</header>
-  
-  
-<!-- Fixed navbar -->
-<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.js"></script>
+    <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#topnav">
+
+<div class="navbar navbar-inverse navbar-fixed-top" id="topnav">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav nav-justified">
-          <li><a href="#section1">Home</a></li>
-          <li><a href="#section2">Profile</a></li>
-          <li class="dropdown">
-            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Academic</a></li>
-              <li><a href="#">Commercial</a></li>
-              <li><a href="#">Financial</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Medical</a></li>
-              <li><a href="#">Religious</a></li>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/ticketfi_header_logo_yellow.png" alt="Expose" height="17px" /> </a>
+        </div>
+<!--         <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </li>
-          <li><a href="#section4">Location</a></li>
-          <li><a href="#section5">Contact</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div><!--/.container -->
-</div><!--/.navbar -->
-  
-<!-- Begin page content -->
-<div class="divider" id="section1"></div>
-  
-<div class="container">
-  <div class="col-sm-10 col-sm-offset-1">
-    <div class="page-header text-center">
-      <h1>Since 1923</h1>
+
+        </div> -->
+        <!--/.navbar-collapse -->
     </div>
-    
-    <p class="lead text-center"> 
-      The Firm has been providing Professional Design Services in the England area since 1923.
-    </p> 
-    
-    <hr>
-    
-    <div class="divider"></div>
-    
-  </div>
 </div>
-    
-<div class="divider"></div>
-  
-<section class="bg-1">
-  <div class="col-sm-6 col-sm-offset-3 text-center"></div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron" id="home">
+    <div class="container">
+        <div class="media">
+            <div class="media-body">
+                <div class="col-md-12">
+                    <h1 class="title">DATA-DRIVEN EVENT MANAGEMENT</h1>
+
+                    <p>TicketFi is Big Data for events. Our full service platform ensures your events go splendid.</p>
+
+                    <p><a class="btn btn-success btn-lg">&#x25b6; Try Our Demo Now <i class="icon icon-angle-right"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="services">
+    <!-- Example row of columns -->
+    <div class="row features">
+        <div class="col-lg-4 text-center">
+            <div class="single-fet">
+                <div>
+                <span class="icon-stack icon-4x">
+  <i class="icon-circle icon-stack-base"></i>
+  <i class="icon-ok icon-light"></i>
+</span>
+                </div>
+                <h2>Sales And Ticketing Platform <span class="label label-warning"></span></h2>
+
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris
+                    condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+            </div>
+        </div>
+        <div class="col-lg-4 text-center">
+            <div class="single-fet">
+                <div>
+                <span class="icon-stack icon-4x">
+  <i class="icon-circle icon-stack-base"></i>
+  <i class="icon-laptop icon-light"></i>
+</span>
+                </div>
+                <h2>Attendee Relationship Management (ARM) Tools</h2>
+
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris
+                    condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+            </div>
+        </div>
+        <div class="col-lg-4 text-center">
+            <div class="single-fet">
+                <div>
+                <span class="icon-stack icon-4x">
+  <i class="icon-circle icon-stack-base"></i>
+  <i class="icon-download-alt icon-light"></i>
+</span>
+                </div>
+                <h2>Data Science and Collection Tools</h2>
+
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris
+                    condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<section class="slider" id="features">
+    <div class="container">
+        <div class="inner-page">
+            <h2 class="page-headline large text-center">Tell your projects awesome story.</h2>
+
+            <p class="text-center">Tell your projects awesome story. Tell your projects awesome story. Tell your
+                projects awesome story. Tell your projects awesome story.</p>
+        </div>
+        <div class="row inner-page">
+            <div class="col-md-8 col-md-push-4 lazy-container loaded">
+                <!--<img data-original="images/mockup.png" src="images/mockup.png" alt="Looks great on every device"-->
+                <!--class="lazy">-->
+
+                <h2>Our <strong>Features</strong></h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-group"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Customer Support</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-file"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">HTML5 / CSS3 / JS</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, adip.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-google-plus"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">500+ Google Fonts</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-adjust"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Colors</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-film"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Sliders</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-magic small user"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Icons</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-reorder"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Buttons</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit, consectetur adip.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-desktop"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Lightbox</h4>
+
+                                <p class="tall">Lorem sit amet, consectetur adip.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-md-pull-8">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                            tellus ac cursus commodo, tortor </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                            tellus ac cursus commodo, tortor </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                            tellus ac cursus commodo, tortor </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                            tellus ac cursus commodo, tortor </p>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
 </section>
-  
-<div class="divider" id="section2"></div>
-   
-<div class="row">
-  	<div class="col-sm-10 col-sm-offset-1">
-      <h1>Profile</h1>
-      
-      <hr>
-     
-      <p>
-	  The Firm has had a great deal of experience and is highly regarded for its expertise in the areas of design, construction administration, construction management, tight cost control and scheduling.
-	  </p> 
-      <p>
-	  We have been involved in a wide range of building projects, including college facilities, banks, schools, nursing homes, office buildings, churches, industrial buildings and major urban development projects.
-      </p> 
-      <p>
-	  The various projects have included new construction, renovation and adaptive re-use as a way of providing new space for the various clients. Tessier Associates provides in-house programming, master planning, architectural design, construction documentation, project administration and interior design services. Sustainable design, as appropriate for each client, is incorporated in cost effective ways to benefit the long term value of the buildings created by the firm.
-	  </p> 
-      <p>
-	  Together with selected consultants, The Firm provides complete professional services including landscape architecture, structural engineering, electrical and mechanical engineering and site planning.
-	  </p> 
-      
-      <hr>
-      
-      <div class="divider"></div>
-      
-  	</div><!--/col-->
-</div><!--/container-->
 
-<div class="divider"></div>
-  
-<section class="bg-3">
-  <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Clients &amp; Partners</h2></div>
+<section class="pricing" id="pricing">
+
+<!--     <div class="container">
+        <div class="row">
+            <div class="col-md-12 pricing-intro">
+                <h2 class="page-headline large text-center">Tell your projects awesome story.</h2>
+
+                <p class="text-center">Tell your projects awesome story. Tell your projects awesome story. Tell your
+                    projects awesome story. Tell your projects awesome story.</p>
+            </div>
+        </div>
+    </div> -->
+
+<!-- 
+    <div class="container">
+
+        <div class="row pricing-table">
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading"><h3 class="text-center">DEV PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-danger"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h3 class="text-center">PRO PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-info"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h3 class="text-center">FREE PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+
 </section>
-  
-<div class="divider" id="section3"></div>
-  
-<div class="bg-4">
-  <div class="container">
-	<div class="row">
-	   <div class="col-sm-4 col-xs-6">
-      
-        <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Renovations"><img src="//placehold.it/600x400/444/F8F8F8" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Renovations</p>
-            <p></p>
-
-          </div>
-        </div><!--/panel-->
-      </div><!--/col-->
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Academic Institutions"><img src="//placehold.it/600x400/454545/FFF" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Academic Institutions</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-      </div><!--/col-->
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Interiors"><img src="//placehold.it/600x400/555/F2F2F2" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Interiors</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="//placehold.it/600x400/555/FFF" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>New Construction</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Site Planning"><img src="//placehold.it/600x400/555/EEE" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Site Planning</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Churches"><img src="//placehold.it/600x400/666/F4F4F4" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Churches</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-	</div><!--/row-->
-  </div><!--/container-->
-</div>
-
-<div class="divider" id="section4"></div>
-
-<div class="row">
-  <div class="col-md-8 col-md-offset-1">
-  </div>
-</div>
-  
-<div class="row">
-  
-  <div class="col-sm-10 col-sm-offset-1">
-      <h1>Location</h1>
-  </div>   
-       
-  <div id="map-canvas"></div>
-  
-  <hr>
-  
-  <div class="col-sm-8"></div>
-  <div class="col-sm-3 pull-right">
-
-      <address>
-        The Firm, Inc.<br>
-        <span id="map-input">
-        1500 Main Street<br>
-        Springfield, MA 01115</span><br>
-        P: (413) 700-5999
-      </address>
-    
-      <address>
-        <strong>Email Us</strong><br>
-        <a href="mailto:#">first.last@example.com</a>
-      </address>          
-  </div>
-  
-</div><!--/row-->
-  
-<div class="divider" id="section5"></div>  
-
-<div class="row">
-  
-  <hr>
-  
-  <div class="col-sm-9 col-sm-offset-1">
-      
-      <div class="row form-group">
-        <div class="col-md-12">
-        <h1>Contact Us</h1>        
+<!-- <section class="gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">Tell your projects awesome story.</h3>
+            </div>
         </div>
-        <div class="col-xs-4">
-          <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+    </div>
+</section> -->
+<section class="" id="">
+    <div class="dmask">
+
+        <div class="our-clients">
+            <div class="container">
+                <div class="row">
+                    <div class="client col-md-12" style="background-position: 50% 27px;">
+                        <h1>Our Customers Love Us!</h1>
+                        <h3>We've worked hard with these organizations to bring them event success.</h3>
+                        <img src="images/tedx_grayscale.png" class="col-md-3"/>
+                        <img src="images/laurier_grayscale.png" class="col-md-3"/>
+                        <img src="images/ivey_grayscale.png" class="col-md-3"/>
+                        <img src="images/conrad_grayscale.png" class="col-md-3"/>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-xs-6">
-          <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-offset-2 col-md-8">
+
+                <div class="alert alert-success hidden" id="contactSuccess">
+                    <strong>Success!</strong> Your message has been sent to us.
+                </div>
+
+                <div class="alert alert-error hidden" id="contactError">
+                    <strong>Error!</strong> There was an error sending your message.
+                </div>
+
+                <h2 class="short"><strong>Contact</strong> Us</h2>
+
+                <form class="clearfix" accept-charset="utf-8" method="get" action="#">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="" value="" name="name" id="name"
+                                   class="form-control input-lg">
+                        </div>
+
+                        <div class="col-sm-6 form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="" value="" name="email" id="email"
+                                   class="form-control input-lg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="4" name="message" id="message" class="form-control"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-success btn-xlg" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-offset-2 col-md-8">
+                <br/>
+
+                <h4>The <strong>Office</strong></h4>
+                <ul class="unstyled">
+                    <li><i class="icon-map-marker"></i> <strong>Address:</strong> 151 Charles Street, Kitchener, ON Canada
+                    </li>
+                    <li><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:hello@ticketfi.com">hello@ticketfi.com</a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
         </div>
-      </div>
-      <div class="row form-group">
-          <div class="col-xs-5">
-          <input type="text" class="form-control" name="email" placeholder="Email">
-          </div>
-          <div class="col-xs-5">
-          <input type="text" class="form-control" name="phone" placeholder="Phone">
-          </div>
-      </div>
-      <div class="row form-group">
-          <div class="col-xs-10">
-            <textarea class="form-control" placeholder="Comments"></textarea>
-          </div>
-      </div>
-      <div class="row form-group">
-          <div class="col-xs-10">
-            <button class="btn btn-default pull-right">Contact Us</button>
-          </div>
-      </div>
-    
-  </div>
-  
-</div><!--/row-->
-  
-<div class="container">
-  	<div class="col-sm-8 col-sm-offset-2 text-center">
 
-      <ul class="list-inline center-block">
-        <li><a href="http://facebook.com/bootply"><img src="/assets/example/soc_fb.png"></a></li>
-        <li><a href="http://twitter.com/bootply"><img src="/assets/example/soc_tw.png"></a></li>
-        <li><a href="http://google.com/+bootply"><img src="/assets/example/soc_gplus.png"></a></li>
-        <li><a href="http://pinterest.com/in1"><img src="/assets/example/soc_pin.png"></a></li>
-      </ul>
-      
-  	</div><!--/col-->
-</div><!--/container-->
-  
-</div><!--/wrap-->
+    </div>
 
-<div id="footer">
-  <div class="container">
-    <p class="text-muted">Copyright ©2014 ACME, Inc.</p>
-  </div>
-</div>
+</section>
 
-<ul class="nav pull-right scroll-top">
-  <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
-</ul>
-
-
-<div class="modal" id="myModal" role="dialog">
-  <div class="modal-dialog">
-  <div class="modal-content">
-	<div class="modal-header">
-		<button class="close" type="button" data-dismiss="modal">×</button>
-		<h3 class="modal-title"></h3>
-	</div>
-	<div class="modal-body">
-		<div id="modalCarousel" class="carousel">
- 
-          <div class="carousel-inner">
-           
-          </div>
-          
-          <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-          <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-          
+<footer id="footer">
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+<!--                 <div class="col-md-2">
+                    <a class="logo" href="index.html">
+                        <img src="images/expose-logo.png" alt="Template Eden">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <p>&copy; Copyright 2013 by Template Eden. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-5">
+                    <nav id="footer-menu">
+                        <ul>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div> -->
+            </div>
         </div>
-	</div>
-	<div class="modal-footer">
-		<button class="btn btn-default" data-dismiss="modal">Close</button>
-	</div>
-   </div>
-  </div>
-</div>
+    </div>
+</footer>
 
-
-	<!-- script references -->
-
-	</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>
